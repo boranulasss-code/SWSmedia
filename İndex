@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SWS | Sosyal Medya Hizmetleri</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+
+<div class="background-text">
+  <span>SWS</span>
+  <span>SWS</span>
+  <span>SWS</span>
+  <span>SWS</span>
+  <span>SWS</span>
+</div>
+
+<header>
+  <div class="logo">SWS</div>
+
+  <nav>
+    <a href="#instagram">Instagram</a>
+    <a href="#tiktok">TikTok</a>
+    <a href="#telegram">Telegram</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="glow"></div>
+
+  <h1>Sosyal Medyada <span>Gücünü Artır</span></h1>
+  <p>
+    Takipçi, beğeni, yorum, görüntülenme ve daha fazlası.
+    Profesyonel sosyal medya hizmetleri.
+  </p>
+
+  <a class="hero-btn"
+  href="https://wa.me/212621386462?text=Merhaba,%20SWS%20üzerinden%20hizmet%20satın%20almak%20istiyorum."
+  target="_blank">
+    Hizmet Satın Al
+  </a>
+</section>
+
+<section class="platform-section" id="instagram">
+  <div class="section-title">
+    <i class="fab fa-instagram"></i>
+    <h2>Instagram Hizmetleri</h2>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <i class="fas fa-user-plus"></i>
+      <h3>Takipçi</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-heart"></i>
+      <h3>Beğeni</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-comment"></i>
+      <h3>Yorum</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-play"></i>
+      <h3>İzlenme</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-users"></i>
+      <h3>Kanal Üyesi</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+  </div>
+</section>
+
+<section class="platform-section" id="tiktok">
+  <div class="section-title">
+    <i class="fab fa-tiktok"></i>
+    <h2>TikTok Hizmetleri</h2>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Takipçi</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>Beğeni</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>Yorum</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>İzlenme</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>Kaydetme</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>Paylaşma</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+  </div>
+</section>
+
+<section class="platform-section" id="telegram">
+  <div class="section-title">
+    <i class="fab fa-telegram"></i>
+    <h2>Telegram Hizmetleri</h2>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Kanal Üyesi</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>Post Görüntülenme</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>Karışık Emoji</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+
+    <div class="card">
+      <h3>Yorum</h3>
+      <a href="#" class="buy-btn">Satın Al</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h3>SWS</h3>
+  <p>© 2026 Tüm Hakları Saklıdır</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
