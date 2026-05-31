@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #020617, #08142c, #0d1b42);
+  color: white;
+  overflow-x: hidden;
+}
+
+.background-text {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.background-text span {
+  position: absolute;
+  font-size: 140px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.03);
+  animation: move 20s linear infinite;
+}
+
+.background-text span:nth-child(1){
+  top:10%;
+  left:10%;
+}
+
+.background-text span:nth-child(2){
+  top:30%;
+  right:10%;
+}
+
+.background-text span:nth-child(3){
+  bottom:20%;
+  left:15%;
+}
+
+.background-text span:nth-child(4){
+  bottom:10%;
+  right:20%;
+}
+
+.background-text span:nth-child(5){
+  top:50%;
+  left:40%;
+}
+
+@keyframes move {
+  0%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(-30px);
+  }
+  100%{
+    transform:translateY(0);
+  }
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:25px 8%;
+  backdrop-filter: blur(15px);
+}
+
+.logo{
+  font-size:38px;
+  font-weight:800;
+  color:#4d7cff;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+}
+
+.hero{
+  text-align:center;
+  padding:120px 20px;
+}
+
+.hero h1{
+  font-size:65px;
+}
+
+.hero span{
+  color:#4d7cff;
+}
+
+.hero p{
+  margin-top:20px;
+  color:#c8d4ff;
+}
+
+.hero-btn,
+.buy-btn{
+  display:inline-block;
+  text-decoration:none;
+  background:#1742ff;
+  color:white;
+  padding:14px 30px;
+  border-radius:14px;
+  margin-top:30px;
+  transition:.3s;
+}
+
+.hero-btn:hover,
+.buy-btn:hover{
+  transform:translateY(-5px);
+}
+
+.platform-section{
+  padding:90px 8%;
+}
+
+.section-title{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:30px;
+  margin-bottom:30px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,.08);
+  backdrop-filter:blur(20px);
+  border-radius:25px;
+  padding:40px;
+  text-align:center;
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 40px rgba(38,99,255,.4);
+}
+
+.card i{
+  font-size:40px;
+  margin-bottom:15px;
+  color:#4d7cff;
+}
+
+footer{
+  text-align:center;
+  padding:40px;
+  color:#9cb0ff;
+}
