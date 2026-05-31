@@ -1,0 +1,12 @@
+const buttons = document.querySelectorAll(".buy-btn");
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", function(e){
+    e.preventDefault();
+
+    window.open(
+      "https://wa.me/212621386462?text=Merhaba,%20SWS%20üzerinden%20hizmet%20satın%20almak%20istiyorum.",
+      "_blank"
+    );
+  });
+});
